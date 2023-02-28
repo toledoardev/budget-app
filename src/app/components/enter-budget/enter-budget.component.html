@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-lg-6 offset-lg-3">
+            <h2 class="text-center mb-4 text-title">BUDGETAPP</h2>
+            <div class="card card-color">
+                <div class="card-body">
+                    <div *ngIf="wrongAmount" class="text-center mb-4">
+                        <span class="badge bg-danger textError">BUDGET MUSTE BE GREATER THAN ZERO</span>
+                    </div>
+                    <input type="number" [(ngModel)]="amount" class="form-control form-control-lg" placeholder="Enter your budget...">
+                    <button class="btn btn-secondary btn-lg btn-block mt-3" (click)="add()">ACCEPT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

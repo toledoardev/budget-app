@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+/*Variables*/
+:root {
+    --f-main: "Bai Jamjuree", sans-serif;
+    --c-pastel-peach: #FD8A8A;
+    --c-pastel-yellow: #F1F7B5;
+    --c-pastel-teal: #A8D1D1;
+    --c-pastel-blue: #9EA1D4;
+    --c-dark: #2C3333;
+    --c-white: white;
+    --linear-gradient: linear-gradient(to right, var(--c-pastel-teal),var(--c-pastel-yellow)); 
+    --transition: all .5s cubic-bezier(.15, .8, .4, 1);
+    --transform: translate3d(2px,2px,4px);
+}
+
+
+/*Default and custom properties*/
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--c-dark);
+    font-family: var(--f-main);
+    background: var(--linear-gradient);
+}    
+
+.font-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--c-dark);
+}

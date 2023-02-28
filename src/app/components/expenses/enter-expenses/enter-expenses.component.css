@@ -1,0 +1,17 @@
+button {
+    width: 100%;
+    border: none;
+    color: var(--c-pastel-blue);
+    font-weight: bold;
+    background-color: var(--c-pastel-yellow);
+}
+
+button:hover {
+    color: var(--c-dark);
+    background-color: var(--c-pastel-yellow);
+}
+
+label {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
